@@ -28,6 +28,8 @@ Shell> fs0:
 FS0:\> bcfg driver add 0 \EFI\BOOT\V3.efi “E5-26xx unlock TurboBoost”
 # Прошиваем обновленный биос
 FS0:\> AfuEfix64.efi bios.bin /P /B
+# Перегружаем комп
+FS0:\> reset
 ```
 
 ## Заключение
