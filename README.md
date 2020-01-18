@@ -1,4 +1,4 @@
-# Intel Xeon E3-26xx Unlock TurboBoost via EFI Shell
+# Intel Xeon E5-26xx Unlock TurboBoost via EFI Shell
 
 ## Подготовка ESP c Windows
 Чтобы не иметь мучений с созданием загрузочной флешки или программатором, можно скопировать Shellx64.efi в корень ESP (загрузочной партиции в режиме EFI), для этого ее надо подключить командой в черном окне от администратора, например,
@@ -8,7 +8,7 @@ C:\Users\Tester\Desktop\BIOS> mountvol x: /S
 C:\Users\Tester\Desktop\BIOS> copy “3.Driver V3.EFI\V3.efi” x:\EFI\BOOT
 C:\Users\Tester\Desktop\BIOS> copy “3.Driver V3.EFI\Shellx64.efi” x:\
 ```
-Прошить биос можно также из окружения EFI, скачав прошивалку с официального сайта AMI - https://ami.com/en/?Aptio_V_AMI_Firmware_Update_Utility.zip, И разаривировать из него AfuEfi64.zip, а из него собственно прошивалку AfuEfix64.efi
+Прошить биос можно также из окружения EFI, скачав прошивалку с официального сайта AMI - https://ami.com/en/?Aptio_V_AMI_Firmware_Update_Utility.zip, И разархивировать из него AfuEfi64.zip, а из него собственно прошивалку AfuEfix64.efi
 
 Чтобы прошить, необходимо скопировать аналогичным образом новый образ биоса и саму прошивалку на ESP партицию
 ```
