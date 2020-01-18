@@ -8,8 +8,7 @@ C:\Users\Tester\Desktop\BIOS> mountvol x: /S
 C:\Users\Tester\Desktop\BIOS> copy “3.Driver V3.EFI\V3.efi” x:\EFI\BOOT
 C:\Users\Tester\Desktop\BIOS> copy “3.Driver V3.EFI\Shellx64.efi” x:\
 ```
-Прошить биос можно также из окружения EFI, скачав прошивалку с сайта AMI - https://advantech-ncg.zendesk.com/hc/en-us/articles/360018702312-FWA-1012VC-BIOS-UEFI-flash-method-by-AMI-flashing-utility-AfuEfix64-efi- (конкртено Aptio_V_AMI_Firmware_Update_Utility.zip)
-И разаривировать из него AfuEfi64.zip, а из него собственно прошивалку AfuEfix64.efi
+Прошить биос можно также из окружения EFI, скачав прошивалку с официального сайта AMI - https://ami.com/en/?Aptio_V_AMI_Firmware_Update_Utility.zip, И разаривировать из него AfuEfi64.zip, а из него собственно прошивалку AfuEfix64.efi
 
 Чтобы прошить, необходимо скопировать аналогичным образом новый образ биоса и саму прошивалку на ESP партицию
 ```
